@@ -143,4 +143,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: .3s;
+    
+}
+*{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.flexbox{
+    display: flex;
+}
+.flexbox .navbar{
+   padding: 10%;
+   margin: 50% 50% 0% 0%;
+
+}
+footer nav :hover{
+    transition: .3s;
+background-color: white
+}
+
+h4{
+    margin: px 0px;
+}
+.navbar{
+    display: flex;
+}
+
+.flexbox .index.html{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 1px solid black;
+    margin: 0px 0px 0px 50px;
+
+
 }
