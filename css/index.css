@@ -66,9 +66,77 @@ p {
     line-height: 1.4;
 }
 
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+}
+.top{
+    display:flex;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: baseline;
+    padding: 20px; bottom;
+    
+}
+
+.logo{
+    display: flex;
+justify-content: space-around;
+}
+
+.middle .text-container{ 
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+    
+}
+.middle a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+.middle p{
+    padding-bottom: 7%;
+}
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
 }
 
 .top-content {
@@ -138,43 +206,60 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-}
 
-footer nav a {
-    color: white;
+}
+footer nav a{
     text-decoration: none;
-    transition: .3s;
-    
-}
-*{
-    font-family: 'Hind Siliguri', sans-serif;
-}
-.flexbox{
-    display: flex;
-}
-.flexbox .navbar{
-   padding: 10%;
-   margin: 50% 50% 0% 0%;
-
-}
-footer nav :hover{
-    transition: .3s;
-background-color: white
+    color: white;
 }
 
-h4{
-    margin: px 0px;
-}
-.navbar{
-    display: flex;
-}
-
-.flexbox .index.html{
-    width: 50px;
-    height: 50px;
-    background: white;
-    border: 1px solid black;
-    margin: 0px 0px 0px 50px;
-
+.boxes .box:first-child{
+    background: teal;
 
 }
+
+.boxes .box:nth-child(2){
+ background: gold;
+}
+.boxes .box:nth-child(3){
+    background: cadetblue;
+   }
+
+   .boxes .box:nth-child(4){
+    background: coral;
+   }
+
+   .boxes .box:nth-child(5){
+    background: crimson;
+   }
+
+   .boxes .box:nth-child(6){
+    background: forestgreen;
+   }
+
+   .boxes .box:nth-child(7){
+    background: darkorchid;
+   }
+
+   .boxes .box:nth-child(8){
+    background: hotpink;
+   }
+
+   .boxes .box:nth-child(9){
+    background: indigo;
+   }
+
+   .boxes .box:nth-child(10){
+    background: dodgerblue;
+   }
+
+   .about2{
+       padding-bottom: 2%;
+   }
+
+
+
+
+
+
+
